@@ -1,0 +1,19 @@
+{
+  "name": "logic-high-fidelity-prototype",
+  "version": "1.0.0",
+  "description": "High fidelity prototype of the Logic 2010 redesign for CSCC10",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/stylesheet.scss css/stylesheet.css",
+    "compile:sass-watch": "node-sass -w -r sass/stylesheet.scss css/stylesheet.css"
+  },
+  "author": "alexander greff",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
+}
