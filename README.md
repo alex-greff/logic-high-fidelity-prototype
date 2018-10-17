@@ -10,3 +10,6 @@ High fidelity prototype of the Logic 2010 redesign for CSCC10
 - **Viewing changes:** Since the site is static, simply opening the html file is enough to view it properly.
 
 ...And that's about it!
+
+## GitHub Pages
+* Link: https://alex-greff.github.io/logic-high-fidelity-prototype/
