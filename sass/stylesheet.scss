@@ -2,9 +2,9 @@
 
 $clr: red;
 
-// body {
-//     color: $clr;
-// }
+body, html {
+    font-size: 16px;
+}
 
 .page-container {
     // background-color: rgb(172, 172, 172);
@@ -12,4 +12,44 @@ $clr: red;
 
 .page-header {
     padding-top: 50px;
+}
+
+.assignment-header {
+    // Vertical align text
+    & .assignment-due-date, & .assignment-grade {
+        text-align: center;
+        display: flex;
+        align-items: center;
+
+        font-size: 0.8rem;
+    }
+    
+    & .assignment-due-date {
+        color: #7d7d7d
+    }
+}
+
+.question-item {
+    & .question-item__name h5 {
+        padding-left: 1rem;
+    }
+
+    & .question-item__name, & .question-item__grade {
+        font-size: 0.8rem;
+    }
+}
+
+
+// Grade stylings
+
+.completed-grade {
+    color: #07e000;
+}
+
+.incomplete-grade {
+    color: black;
+}
+
+.outstanding-grade {
+    color: red;
 }
