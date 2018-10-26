@@ -13,8 +13,8 @@
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a class="navbar-brand" href="./index.html">Logic 3010</a>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="./home.html">Logic 3010</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarsExample03">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./home.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active"> <!-- Active -->
                         <a class="nav-link" href="./assignments.html">Assignments <span class="sr-only">(current)</span></a>
@@ -32,8 +32,14 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./account.html">My Account <span class="sr-only">(current)</span></a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            [Full Name] <span class="sr-only">(current)</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="account.html">Account</a>
+                            <a class="dropdown-item" href="login.html">Logout</a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -41,9 +47,9 @@
 
         <!-- Content -->
         <div class="container page-container">
-            <div class="row">
+            <div class="row page-top-padding">
                 <div class="col">
-                    <h2 class="page-header">My Assignments</h2>
+                    <h3 class="page-header">My Assignments</h3>
                 </div>
             </div>
             <div id="accordion">
@@ -62,7 +68,7 @@
                                 <div class="col-sm assignment-due-date">
                                     Due: October 13, 2018: 11:59PM
                                 </div>
-                                <div class="col-sm-2 assignment-grade completed-grade">
+                                <div class="col-sm-2 assignment-grade completed-marker">
                                     70%
                                 </div>
                             </div>
@@ -84,7 +90,7 @@
                                             </a>
                                         </h5>
                                     </div>
-                                    <div class="col assignment-grade question-item__grade completed-grade">
+                                    <div class="col assignment-grade question-item__grade completed-marker">
                                         6/10
                                     </div>
                                 </div>
@@ -98,7 +104,7 @@
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div class="col assignment-grade question-item__grade completed-grade">
+                                        <div class="col assignment-grade question-item__grade completed-marker">
                                             7/10
                                         </div>
                                     </div>
@@ -112,7 +118,7 @@
                                             </a>
                                         </h5>
                                     </div>
-                                    <div class="col assignment-grade question-item__grade completed-grade">
+                                    <div class="col assignment-grade question-item__grade completed-marker">
                                         8/10
                                     </div>
                                 </div>
@@ -137,7 +143,7 @@
                                 <div class="col-sm assignment-due-date">
                                     Due: October 23, 2018: 11:59PM
                                 </div>
-                                <div class="col-sm-2 assignment-grade outstanding-grade">
+                                <div class="col-sm-2 assignment-grade outstanding-marker">
                                     45%
                                 </div>
                             </div>
@@ -156,7 +162,7 @@
                                             </a>
                                         </h5>
                                     </div>
-                                    <div class="col assignment-grade question-item__grade completed-grade">
+                                    <div class="col assignment-grade question-item__grade completed-marker">
                                         6/10
                                     </div>
                                 </div>
@@ -170,7 +176,7 @@
                                             </a>
                                         </h5>
                                     </div>
-                                    <div class="col assignment-grade question-item__grade outstanding-grade">
+                                    <div class="col assignment-grade question-item__grade outstanding-marker">
                                         3/10
                                     </div>
                                 </div>
@@ -195,7 +201,7 @@
                                 <div class="col-sm assignment-due-date">
                                     Due: November 3, 2018: 11:59PM
                                 </div>
-                                <div class="col-sm-2 assignment-grade incomplete-grade">
+                                <div class="col-sm-2 assignment-grade incomplete-marker">
                                     ---
                                 </div>
                             </div>
@@ -215,7 +221,7 @@
                                             </a>
                                         </h5>
                                     </div>
-                                    <div class="col assignment-grade question-item__grade completed-grade">
+                                    <div class="col assignment-grade question-item__grade completed-marker">
                                         9/10
                                     </div>
                                 </div>
@@ -229,7 +235,7 @@
                                             </a>
                                         </h5>
                                     </div>
-                                    <div class="col assignment-grade question-item__grade incomplete-grade">
+                                    <div class="col assignment-grade question-item__grade incomplete-marker">
                                         ---
                                     </div>
                                 </div>
@@ -243,7 +249,7 @@
                                             </a>
                                         </h5>
                                     </div>
-                                    <div class="col assignment-grade question-item__grade incomplete-grade">
+                                    <div class="col assignment-grade question-item__grade incomplete-marker">
                                         ---
                                     </div>
                                 </div>

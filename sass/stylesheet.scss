@@ -4,6 +4,7 @@ $clr: red;
 
 body, html {
     font-size: 16px;
+    height: 100%;
 }
 
 .page-container {
@@ -11,7 +12,7 @@ body, html {
 }
 
 .page-header {
-    padding-top: 50px;
+    //padding-top: 50px;
 }
 
 .assignment-header {
@@ -40,16 +41,58 @@ body, html {
 }
 
 
-// Grade stylings
+// Marker stylings
 
-.completed-grade {
+.completed-marker {
     color: #07e000;
 }
 
-.incomplete-grade {
+.incomplete-marker {
     color: black;
 }
 
-.outstanding-grade {
+.outstanding-marker {
     color: red;
+}
+
+
+
+
+
+// Home page
+
+.content-container {
+    background-color: #dfdfdf;
+    height: 100%;
+}
+
+
+.page-top-padding {
+    padding-top: 5rem;
+}
+
+.assignment-reminder-item {
+    & > div {
+        // background-color: white;
+        border-radius: 2px;
+        transition: all 0.1s;
+
+        margin-bottom: 0.5rem;
+    }
+
+    color: inherit;
+
+    &:hover {
+        & > div {
+            background-color: #c2c0c0;
+            transition: all 0.1s;
+        }
+    
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.sidenav {
+    background-color: #f1f1f1;
 }
