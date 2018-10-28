@@ -107,3 +107,56 @@ body, html {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
+
+
+// Question editor
+.question-editor {
+    border: 1px solid #a1a1a1;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px #8888883d;
+
+    height: 85vh;
+
+    padding-left: 0px;
+    padding-right: 0px;
+
+    cursor: crosshair
+}
+
+.question-editor__toolbar {
+    border: 1px solid #a1a1a1;
+
+    width: 100%;
+    // height: 2.5rem;
+
+    display: inline-block;
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+
+    cursor: default;
+
+    & i {
+        &:hover {
+            color: #9e9e9e;
+
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+    
+        font-size: 1.2rem;
+    
+        color: #383838;
+        transition: all 0.3s;
+    
+        padding-right: 0.1rem;
+        padding-left: 0.1rem;
+
+        
+    }
+    & .break {
+        margin-right: 0.8rem;
+    }
+}
