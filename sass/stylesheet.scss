@@ -7,12 +7,9 @@ body, html {
     height: 100%;
 }
 
-.page-container {
-    // background-color: rgb(172, 172, 172);
-}
-
-.page-header {
-    //padding-top: 50px;
+// Navbar
+.nav-avatar-img {
+    width: 1.3rem;
 }
 
 .assignment-header {
@@ -108,6 +105,9 @@ body, html {
     margin-bottom: 0.5rem;
 }
 
+.avatar-image {
+    width: 50%;
+}
 
 // Question editor
 .question-editor {
@@ -157,6 +157,6 @@ body, html {
         
     }
     & .break {
-        margin-right: 0.8rem;
+        margin-right: 1.3rem;
     }
 }

@@ -2,6 +2,9 @@ body, html {
   font-size: 16px;
   height: 100%; }
 
+.nav-avatar-img {
+  width: 1.3rem; }
+
 .assignment-header .assignment-due-date, .assignment-header .assignment-grade {
   text-align: center;
   display: flex;
@@ -56,6 +59,9 @@ body, html {
   font-size: 1.2rem;
   margin-bottom: 0.5rem; }
 
+.avatar-image {
+  width: 50%; }
+
 .question-editor {
   border: 1px solid #a1a1a1;
   border-radius: 2px;
@@ -85,4 +91,4 @@ body, html {
       transition: all 0.3s;
       cursor: pointer; }
   .question-editor__toolbar .break {
-    margin-right: 0.8rem; }
+    margin-right: 1.3rem; }
