@@ -5,6 +5,9 @@ body, html {
 .nav-avatar-img {
   width: 1.3rem; }
 
+.nav-logo-img {
+  width: 6rem; }
+
 .assignment-header .assignment-due-date, .assignment-header .assignment-grade {
   text-align: center;
   display: flex;
